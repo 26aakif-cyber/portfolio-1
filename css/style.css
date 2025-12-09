@@ -1,19 +1,54 @@
-div.header{
-    font-family: monospace;
-    background-color: rgb(143, 48, 48);
-    
+html, body{
+    height: 100%;
+}
+.hero1 {
+height: 100%;
+background-image:url("../naruto-concept-art-7680x4320.jpg");
+background-size: cover;
+background-position: center;
+color: white;
+display: flex;
+flex-direction: column;
 }
 
-p{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h1{
-    text-align: center;
+.navbar {
+padding: -15px;
+background: rgba(0, 0, 0, 0.5);
+position:sticky;
 }
 
-html,body{
-    width:100%;
-    height:100%
+.navbar ul {
+list-style: none;
+display: flex;
+gap: 30px;
+
+
 }
+.hero2 {
+height: 100%;
+background-image:url("../sasuke.jpg");
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 60px;
+
+}
+.hero-content {
+margin: auto;
+text-align: center;
+max-width: 600px;
+justify-content:flex-start;
+
+}
+.hero1 .navbar .logo {
+    display: flex;
+justify-content: center;
+}
+.hero3{
+   background-image:url("../itachi.jpg");
+   padding:0px;
+}
+
+
