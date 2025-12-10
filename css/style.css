@@ -1,54 +1,75 @@
-html, body{
-    height: 100%;
-}
-.hero1 {
-height: 100%;
-background-image:url("../naruto-concept-art-7680x4320.jpg");
-background-size: cover;
-background-position: center;
-color: white;
-display: flex;
-flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
 .navbar {
-padding: -15px;
-background: rgba(0, 0, 0, 0.5);
-position:sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 15px 40px;
+    z-index: 2000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar ul {
-list-style: none;
-display: flex;
-gap: 30px;
-
-
-}
-.hero2 {
-height: 100%;
-background-image:url("../sasuke.jpg");
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding: 60px;
-
-}
-.hero-content {
-margin: auto;
-text-align: center;
-max-width: 600px;
-justify-content:flex-start;
-
-}
-.hero1 .navbar .logo {
+    list-style: none;
     display: flex;
-justify-content: center;
+    gap: 30px;
 }
-.hero3{
-   background-image:url("../itachi.jpg");
-   padding:0px;
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
+.hero {
+    padding-top: 100px;   
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.hero1 {
+    background-image: url("../naruto-concept-art-7680x4320.jpg");
+}
+
+.hero2 {
+    background-image: url("../sasuke.jpg");
+}
+
+.hero3 {
+    background-image: url("../itachi.jpg");
+}
+
+
+.hero-content {
+    max-width: 600px;
+    text-align: center;
+}
+h1{
+    font-style: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    align-items: center;
+}
